@@ -12,6 +12,8 @@ class accu_scores:
         self.confMat()
         self.recall()
         self.precision()
+		
+		
     def simpleAccu(self):
         print("simple accuracy : ",metrics.accuracy_score(self.y_test, self.y_pred_class))
     def confMat(self):
